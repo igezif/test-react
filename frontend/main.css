@@ -1,0 +1,16 @@
+.user_menu span{
+    display: inline-block;
+    margin: 10px;
+    color: blue;
+}
+
+.user_menu span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
