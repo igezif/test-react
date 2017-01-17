@@ -4,8 +4,6 @@ import { Provider } from 'react-redux';
 import configureStore from './redux';
 import Layout from './components/Layout';
 
-//import DevTools from './dev_tool';
-
 import './main.css';
 
 const initialState = {};
