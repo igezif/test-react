@@ -1,5 +1,5 @@
 {
-  "name": "task1",
+  "name": "test-react",
   "version": "1.0.0",
   "description": "test",
   "main": "index.html",
@@ -28,13 +28,14 @@
     "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
-    "webpack": "^1.14.0",
     "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.5",
+    "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "latest",
     "react-hot-loader": "^3.0.0-beta.4",
     "redux-devtools": "latest",
+    "redux-devtools-dock-monitor": "latest",
     "redux-devtools-log-monitor": "latest",
-    "redux-devtools-dock-monitor": "latest"
+    "webpack": "^1.14.0"
   }
 }

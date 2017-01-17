@@ -7,7 +7,6 @@ const ExtractTextPlugin  = require('extract-text-webpack-plugin');
 
 module.exports = {
 
-    //context: path.join(__dirname, '/js'),
     context: __dirname,
 
     entry: './frontend/app.js',
@@ -35,7 +34,7 @@ module.exports = {
                 include: [
                     path.join(__dirname, './frontend')
                 ],
-                loader: 'babel',
+                loader: 'babel'
             },
             {
                 test: /\.css$/,
